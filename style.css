@@ -1,0 +1,121 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fff0f5;
+  color: #333;
+}
+
+header {
+  background: #ffc0cb;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1200x400/?flowers') center/cover no-repeat;
+  text-align: center;
+  padding: 5rem 2rem;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about, .products, .testimonials, .contact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.products .product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.testimonials blockquote {
+  background: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 600px;
+  border-left: 5px solid #ff69b4;
+  font-style: italic;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 0.75rem;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #ffc0cb;
+  color: #fff;
+  margin-top: 2rem;
+}
